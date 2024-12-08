@@ -29,7 +29,7 @@ const oauth = OAuth({
 // Route to handle '/'
 app.get('/', (req, res) => {
   const requestData = {
-    url: `https://861427-sb2.suitetalk.api.netsuite.com/services/rest/record/v1/salesOrder/434`,
+    url: `https://861427-sb2.suitetalk.api.netsuite.com/services/rest/record/v1/invoice/388`,
     method: 'GET',
   };
 
